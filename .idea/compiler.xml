@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Eclipse" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java-nio" />
+        <module name="rabbit-mq-customer" />
+        <module name="rabbit-mq-producer" />
+        <module name="springboot-aop" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="java" target="1.5" />
+      <module name="java-nio" target="1.5" />
+      <module name="rabbit-mq" target="1.5" />
+      <module name="rabbit-mq-customer" target="1.5" />
+      <module name="rabbit-mq-producer" target="1.5" />
+      <module name="springboot-aop" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

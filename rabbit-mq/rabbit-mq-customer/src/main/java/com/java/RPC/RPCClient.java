@@ -18,7 +18,13 @@ public class RPCClient {
 
     public RPCClient() throws IOException, TimeoutException {
         ConnectionFactory factory = new ConnectionFactory();
-        factory.setHost("localhost");
+
+        //设置RabbitMQ地址
+        factory.setHost("192.168.227.134");
+        factory.setPort(5672);
+        factory.setUsername("lyl");
+        factory.setPassword("liu19980701");
+
         connection = factory.newConnection();
         channel = connection.createChannel();
 
